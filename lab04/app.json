@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "lab04",
+    "slug": "lab04",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onesignal.example"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.onesignal.example"
+    },
+    "web": {
+      "favicon": "./src/assets/icon.png"
+    },
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ],
+    "extra": {
+      "oneSignalAppId": "ce940ca0-4b48-47aa-bcc5-e293e82a2cbb",
+      "apiKey": "os_v2_app_z2kazicljbd2vpgf4kj6qkrmxmphlxsljibevu4omhxphx2ao2zbutjs3gc4jgjdlsmocdoh74puiwripnnt7orauwcko5w75klasti"
+    }
+  }
+}
