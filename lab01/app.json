@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "lab01",
+    "slug": "lab01",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/ztu.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/ztu.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/ztu.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/ztu.png"
+    }
+  }
+}
